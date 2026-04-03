@@ -3,7 +3,8 @@
 
 Instalacija
 
-git clone https://github.com/LazarBojicic1/lazarbojicic15422php2sajt cd lazarbojicic15422php2sajt
+git clone https://github.com/LazarBojicic1/lazarbojicic15422php2sajt
+cd lazarbojicic15422php2sajt
 
 composer install
 npm install
