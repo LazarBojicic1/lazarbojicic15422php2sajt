@@ -4,21 +4,32 @@
 Instalacija
 
 git clone https://github.com/LazarBojicic1/lazarbojicic15422php2sajt
+
 cd lazarbojicic15422php2sajt
 
+
 composer install
+
 npm install
+
 
 cp .env.example .env   //Koristiti mysql bazu
 
+
 php artisan key:generate
+
 php artisan storage:link
 
+
 php artisan migrate:fresh --seed 
+
 php artisan tmdb:import 
+
 php artisan db:seed  //pokrecemo ponovo nakon importovanih serija i filmova
 
+
 npm run dev 
+
 php artisan serve
 
 
